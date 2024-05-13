@@ -5,7 +5,7 @@
 This repository contains the code and resources for the Data Analyst Intern Assessment. The assessment task involves completing a function to save extracted tables in Excel or CSV format from provided HTML files.
 It's recommended to properly analyze the html file to understand what data needs to be saved. Ensure to sanitize all the inputs and drop any null values to maintain a coherent database structure.
 
-The goal is to extract the data such that it can be used for data visualization purposes including:
+The goal is to have a singular excel or csv file containing all the people(each HTML file is a person) as rows and their attributes(education,experience, etc) as columns. Ensure the data is coherent, such that it can be used for data visualization purposes including:
 
 - Single entity visualization
 - Multiple entity relationship visualization (how two entities are related, like two people working in the same department during the same time)
